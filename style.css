@@ -199,7 +199,7 @@ main {
 #midmain {
   width: 100%;
   height: 800px;
-  background-color: blue;
+  background-color: #00B8A9;
 }
 
 #supmain {
@@ -339,16 +339,79 @@ main {
 
 .lowercentral img {
   left: 50%;
-  transform: translate(25%, 10%);
+  transform: translate(5%, 10%);
 }
 
+.lowercentral {
+  text-align: center;
+}
 
+#midmain .centralsup {
+  text-align: center;
+}
 
+#midmain .centralsup h1 {
+  color: white;
+  font-size: 40px;
+  padding: 100px 60px 20px 60px;
 
+}
 
+#midmain .centralsup p {
+  color: white;
+  font-size: 17px;
+  padding: 30px 100px 60px 100px;
+}
 
+#level1, #level2 {
+  display: table;
+  content: "";
+  clear: both;
+  width: 100%;
+  height: 100px;
+}
 
+.block {
+  float: left;
+  width: 25%;
+  height: 150px;
 
+}
+
+/* #level1 .block {
+  background-color: yellow;
+}
+
+#level2 .block {
+  background-color: white;
+} */
+
+.externalleft {
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.externalright {
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+}
+
+.internal {
+  border-bottom: 2px solid white;
+}
+
+.plus {
+  border-right: 2px solid white;
+}
+
+.central1 {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+.central2 {
+  border-right: 2px solid white;
+}
 
 
 

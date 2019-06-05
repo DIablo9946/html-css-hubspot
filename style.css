@@ -223,8 +223,9 @@ main {
 
 #superiorcentral {
   width: 100%;
-  height: 600px;
+  height: 500px;
   position: relative;
+  margin-bottom: -50px;
 }
 
 #superiorcentral img {
@@ -258,12 +259,14 @@ main {
    background-color: white;
    height: 300px;
    position: relative;
+
  }
 
  #leftmediumcentral img {
    position: absolute;
    left: 10%;
    top: 10%;
+
  }
 
  #leftmediumcentral button {
@@ -274,6 +277,70 @@ main {
    left: 15%;
    top: 70%;
  }
+
+ #rightmediumcentral {
+   position: absolute;
+   width: 50%;
+   left: 40%;
+   top: 10%;
+ }
+
+ #rightmediumcentral h1 {
+   font-size: 25px;
+   margin-bottom: 15px;
+ }
+
+ #rightmediumcentral p {
+   line-height: 25px;
+   margin-bottom: 15px;
+ }
+
+#rightmediumcentral p, #rightmediumcentral hr {
+  display: inline-block;
+}
+
+#rightmediumcentral hr {
+  width: 65%;
+  right: -20px;
+  top: -5px;
+  position: relative;
+}
+
+#rightmediumcentral li {
+  display: inline-block;
+  margin: 15px 15px;
+}
+
+.lowercentral {
+  display: table;
+  content: "";
+  clear: both;
+
+  width: 100%;
+  height: 400px;
+
+}
+
+.lowercentral .lowerblocks {
+  width: 30%;
+  height: 500px;
+  background-color: white;
+  float: left;
+  margin: 5% 0;
+}
+
+.lowercentral .lowerblockz {
+  width: 30%;
+  height: 500px;
+  background-color: white;
+  float: left;
+  margin: 5% 5%;
+}
+
+.lowercentral img {
+  left: 50%;
+  transform: translate(25%, 10%);
+}
 
 
 

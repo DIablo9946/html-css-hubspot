@@ -138,6 +138,9 @@ main {
   margin: 0px 15px;
 }
 
+#rightfix2 ul {
+  margin-right: 180px;
+}
 
 
 #sitelogo {
@@ -327,7 +330,7 @@ main {
 
 .lowercentral .lowerblocks {
   width: 30%;
-  height: 500px;
+  height: 550px;
   background-color: white;
   float: left;
   margin: 5% 0;
@@ -335,7 +338,7 @@ main {
 
 .lowercentral .lowerblockz {
   width: 30%;
-  height: 500px;
+  height: 550px;
   background-color: white;
   float: left;
   margin: 5% 5%;
@@ -348,6 +351,34 @@ main {
 
 .lowercentral {
   text-align: center;
+}
+
+.lowercentral hr {
+  margin-bottom: 15px;
+}
+
+.lowercentral ul {
+  text-decoration: none;
+}
+
+.lowercentral li {
+  margin: 10px 0px;
+}
+
+.lowercentral button {
+  color: white;
+  background-color: red;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+.lowercentral h1 {
+  margin: 20px 0px;
+}
+
+.lowercentral p {
+  line-height: 25px;
+  margin: 0px 10px 20px 10px;
 }
 
 #midmain .centralsup {

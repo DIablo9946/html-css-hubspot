@@ -23,8 +23,14 @@ body {
 
 header {
   width: 100%;
+  position: relative;
   /* height: 800px; Una volta stabilita la dimensione dei div diventa obsoleto*/
 }
+
+main {
+  position: relative;
+}
+
 
 /* Mi stablisco delle dimensioni degli elementi del header */
 
@@ -37,6 +43,10 @@ header {
   background-color: lightblue;
   position: fixed;
   z-index: 99;
+}
+
+#midhead {
+  background-color: white;
 }
 
 /* Mi occupo del layout della parte fisssa */
@@ -142,15 +152,18 @@ header {
 #textelement {
   position: absolute;
   left: 20%;
-  width: 50%;
+  width: 25%;
   height: 100%;
-  /* top: 50%;
-  transform: translate(00%,-50%); */
+  top: 15%;
+
+
 }
 
 #textelement h1 {
   color: white;
-  font-size: 50px;
+  font-size: 60px;
+  margin: 0px 0px 30px 0px;
+
 }
 
 #textelement button {
@@ -158,13 +171,26 @@ header {
   background-color: white;
   font-size: 18px;
   text-align: center;
+  margin-bottom: 25px;
+  border-radius: 5%;
 }
 
+#textelement #bigtext {
+  color: white;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+#textelement #smalltext {
+  color: white;
+  margin-bottom: -50px;
+}
 
 
 /* Mi stabilisco le dimensioni degli elementi dei div main */
 
 #supmain, #botmain {
+  position: relative;
   width: 100%;
   height: 1200px;
   background-color: white;
@@ -176,8 +202,78 @@ header {
   background-color: blue;
 }
 
+#supmain {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: #F5F8FA;
+}
 
+.lateralside {
+  height: 100%;
+  width: 25%;
+  float: left;
+}
 
+.centralsup {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+
+#superiorcentral {
+  width: 100%;
+  height: 600px;
+  position: relative;
+}
+
+#superiorcentral img {
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,30%);
+}
+
+ #superiorcentral h1 {
+   position: absolute;
+   text-align: center;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, 80%);
+   font-size: 35px;
+ }
+
+ #superiorcentral p {
+   position: absolute;
+   text-align: center;
+   left: 50%;
+   top: 60%;
+   transform: translate(-50%, 70%);
+   width: 80%;
+   line-height: 30px;
+   font-size: 18px;
+ }
+
+ #mediumcentral {
+   width: 100%;
+   background-color: white;
+   height: 300px;
+   position: relative;
+ }
+
+ #leftmediumcentral img {
+   position: absolute;
+   left: 10%;
+   top: 10%;
+ }
+
+ #leftmediumcentral button {
+   color: white;
+   background-color: red;
+   padding: 10px 17px;
+   position: absolute;
+   left: 15%;
+   top: 70%;
+ }
 
 
 

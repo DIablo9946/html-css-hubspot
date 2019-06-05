@@ -83,6 +83,13 @@ main {
   transform: translate(00%,-50%);
 }
 
+#rightfix img {
+  position: absolute;
+  top: 5%;
+  left: -18%;
+}
+
+
 #but1 {
   color: red;
   background-color: white;
@@ -126,15 +133,12 @@ main {
   text-decoration: none;
 }
 
-#rightfix2 form, rightfix2 a {
+#rightfix2 li {
   display: inline-block;
-  margin: 0px 10px;
+  margin: 0px 15px;
 }
 
-#rightfix2 form {
-  border: none;
-  text-align: center;
-}
+
 
 #sitelogo {
   width: 180px;

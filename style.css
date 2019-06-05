@@ -418,31 +418,6 @@ main {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Mi metto la icona del chat */
 
 #chat img {
@@ -451,4 +426,12 @@ main {
   left: 96%;
   width: 50px;
   height: 50px;
+}
+
+
+
+
+.lowerblocks:hover, .lowerblockz:hover, #mediumcentral:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 5px 5px lightgray;
 }

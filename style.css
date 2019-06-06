@@ -519,13 +519,58 @@ main {
     padding-top: 10%;
 }
 
+
+
 .botlogos img {
   margin: 0px 25px;
   padding-top: 30px;
+}
+
+#inferiorbot {
+  content: "";
+  display: table;
+  clear: both;
+  margin-top: 10%;
+}
+
+#textside, #facesize {
+  width: 50%;
+  float: left;
 
 }
 
+#textside {
+  margin-top: 10%;
+}
 
+#facesize {
+  padding-left: 130px;
+}
+
+#textside h1 {
+  font-size: 40px;
+}
+
+#smallp {
+  font-size: 12px;
+  color: gray;
+  margin-top: 20px;
+}
+
+
+#bigp {
+  margin-top: 30px;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 30px;
+  color: gray;
+}
+
+#textside button {
+  padding: 30px 50px;
+  color: white;
+  background-color: red;
+}
 
 
 

@@ -11,14 +11,14 @@
 
 #container {
   width: 100%;
-  height: 5000px;
+  /* height: 5000px; */
 }
 
 /* Per comodità ne metto un colore  */
 
-body {
+/* body {
   background-color: lightgray;
-}
+} */
 
 /* Sempre per comodità stabilisco delle dimensioni al header  */
 
@@ -572,7 +572,24 @@ main {
   background-color: red;
 }
 
+footer {
+  width: 100%;
+  height: 750px;
+  content: "";
+  display: table;
+  clear: both;
+  background-color: #33475B;
+}
 
+#supfoot {
+  width: 100%;
+  height: 60%;
+}
+
+#inffoot {
+  width: 100%;
+  height: 40%;
+}
 
 /* Mi metto la icona del chat */
 

@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
 }
 
 /* Stabilisco iniziali dimensioni del sito per aiutarmi a stabilirne meglio la struttura */
@@ -206,7 +207,7 @@ main {
 #midmain {
   width: 100%;
   height: 800px;
-  background-color: #00B8A9;
+  background-color: #00AFB2;
 }
 
 #supmain {
@@ -218,13 +219,13 @@ main {
 
 .lateralside {
   height: 100%;
-  width: 25%;
+  width: 20%;
   float: left;
 }
 
 .centralsup {
   height: 100%;
-  width: 50%;
+  width: 60%;
   float: left;
 }
 
@@ -387,14 +388,14 @@ main {
   text-align: center;
 }
 
-#midmain .centralsup h1 {
+#midmain #uppercentralsup h1 {
   color: white;
   font-size: 40px;
   padding: 100px 60px 20px 60px;
 
 }
 
-#midmain .centralsup p {
+#midmain #uppercentralsup p {
   color: white;
   font-size: 17px;
   padding: 30px 100px 60px 100px;
@@ -406,6 +407,33 @@ main {
   clear: both;
   width: 100%;
   height: 100px;
+}
+
+#lowercentralsup h1, #lowercentralsup .one {
+  display: inline-block;
+}
+
+#lowercentralsup img {
+  display: block;
+  padding-top: 20px;
+  margin: auto;
+}
+
+#lowercentralsup h1 {
+  color: white;
+  font-size: 40px;
+}
+
+#lowercentralsup p {
+  color: white;
+}
+
+.two {
+  font-size: 20px;
+}
+
+.externalright {
+  padding-top: 25px;
 }
 
 .block {
@@ -425,20 +453,27 @@ main {
 
 .externalleft {
   border-bottom: 2px solid white;
-  border-right: 2px solid white;
+
+}
+
+.externalleft h1 {
+  color: white;
+  font-size: 25px;
 }
 
 .externalright {
   border-bottom: 2px solid white;
-  border-left: 2px solid white;
+
 }
 
 .internal {
   border-bottom: 2px solid white;
+  border-right: 2px solid white;
 }
 
 .plus {
   border-right: 2px solid white;
+  border-left: 2px solid white;
 }
 
 .central1 {
@@ -450,6 +485,45 @@ main {
   border-right: 2px solid white;
 }
 
+#superiorbot {
+  width: 100%;
+  height: 30%;
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#superiorbot h1 {
+  font-size: 50px;
+}
+
+#superiorbot span {
+  font-size: 30px;
+}
+
+#superiorbot p {
+  font-size: 20px;
+}
+
+.bottext {
+  width: 25%;
+  line-height: 35px;
+  padding-top: 15%;
+  float: left;
+}
+
+.botlogos {
+  width: 65%;
+  float: left;
+  margin-left: 10%;
+    padding-top: 10%;
+}
+
+.botlogos img {
+  margin: 0px 25px;
+  padding-top: 30px;
+
+}
 
 
 
@@ -467,6 +541,7 @@ main {
 
 
 
+/* Imposto il hover sopra i tre box con info */
 
 .lowerblocks:hover, .lowerblockz:hover, #mediumcentral:hover {
   transform: scale(1.05);

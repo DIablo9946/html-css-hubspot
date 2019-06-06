@@ -639,6 +639,7 @@ footer {
 
 #prelast {
   list-style-type: none;
+
   margin-left: 25%;
 }
 
@@ -653,21 +654,40 @@ footer {
   margin-bottom: 30px;
 }
 
-.centralsup a:hover {
-  background-color: blue;
+.centralsup a {
+  text-decoration: none;
 }
+
+.centralsup a:visited {
+  color: white;
+}
+
+
+
+.centralsup a:hover {
+  color: blue;
+}
+
 
 #last  {
   list-style-type: none;
- padding-bottom: 50px;
-  margin-left: 60%;
-  
+
+
+}
+
+#last li, #last img {
+  display: inline-block;
+
+}
+
+#last #pow {
+
+   margin-left: 60%;
 }
 
 #last li {
-  display: inline-block;
   color: white;
-
+  margin: 0px 50px;
 }
 
 /* Imposto il hover sopra i tre box con info */

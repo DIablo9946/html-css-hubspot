@@ -625,6 +625,8 @@ footer {
 }
 
 
+
+
 /* Mi metto la icona del chat */
 
 #chat img {
@@ -635,9 +637,38 @@ footer {
   height: 50px;
 }
 
+#prelast {
+  list-style-type: none;
+  margin-left: 25%;
+}
 
+#prelast li {
+  display: inline-block;
+  color: white;
+  margin: 0px 20px 35px 20px;
 
+}
 
+#inffoot hr {
+  margin-bottom: 30px;
+}
+
+.centralsup a:hover {
+  background-color: blue;
+}
+
+#last  {
+  list-style-type: none;
+ padding-bottom: 50px;
+  margin-left: 60%;
+  
+}
+
+#last li {
+  display: inline-block;
+  color: white;
+
+}
 
 /* Imposto il hover sopra i tre box con info */
 
